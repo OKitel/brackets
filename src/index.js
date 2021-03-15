@@ -33,12 +33,7 @@ module.exports = function check(str, bracketsConfig) {
             }
        }
     }
-    if (array.length == 0) {
-        return true;
-    } else {
-        return false;
-    }
-    
+    return array.length == 0 ? true : false;       
 }
 
 
